@@ -111,3 +111,16 @@ p {
 .custom-card .contact img {
   width: 40px;
 }
+
+#akın {
+transition: 0.7s; 
+}  
+ #akın:hover{
+  transform: translateY(-10px);
+} 
+#akınfoto {
+  transition: 0.7s;
+}
+#akınfoto:hover{
+  transform: scale(1.4);
+} 
