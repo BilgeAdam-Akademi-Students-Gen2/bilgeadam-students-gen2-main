@@ -112,15 +112,15 @@ p {
   width: 40px;
 }
 
-#akın {
+#card-animation {
 transition: 0.7s; 
 }  
- #akın:hover{
+ #card-animation:hover{
   transform: translateY(-10px);
 } 
-#akınfoto {
+#logo-animation {
   transition: 0.7s;
 }
-#akınfoto:hover{
+#logo-animation:hover{
   transform: scale(1.4);
 } 
