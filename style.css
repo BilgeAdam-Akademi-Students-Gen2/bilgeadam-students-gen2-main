@@ -3,6 +3,7 @@
 }
 
 body {
+  padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -113,14 +114,37 @@ p {
 }
 
 #card-animation {
-transition: 0.7s; 
-}  
- #card-animation:hover{
+  transition: 0.7s;
+}
+#card-animation:hover {
   transform: translateY(-10px);
-} 
+}
 #logo-animation {
   transition: 0.7s;
 }
-#logo-animation:hover{
+#logo-animation:hover {
   transform: scale(1.4);
-} 
+}
+
+/* Melisa Css Start */
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+.motto{
+  font-family: 'Red Rose', cursive;
+  color: white;
+  background-color: #f54260;
+  border: 3px solid #303030;
+  box-shadow:
+    1px 1px #303030,
+    2px 2px #303030,
+    3px 3px #303030,
+    4px 4px #303030,
+    5px 5px #303030,
+    6px 6px #303030,
+    7px 7px #303030,
+    8px 8px #303030,
+    9px 9px #303030,
+    10px 10px #303030;
+  border-radius:10px;
+  margin-bottom: 30px;
+}
+/* Melisa Css Finish */
